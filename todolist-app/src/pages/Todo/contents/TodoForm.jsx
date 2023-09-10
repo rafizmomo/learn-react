@@ -1,6 +1,11 @@
+import Card from "../../../components/Card";
+import InputText from "../../../components/Form/InputText";
+
 const TodoForm = () => (
-    <div>
-        ini Form
-    </div>
+    <>
+        <Card>
+            <InputText id='title' label='Title' />
+        </Card>
+    </>
 )
 export default TodoForm;
