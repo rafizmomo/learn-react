@@ -4,7 +4,13 @@ import InputText from "../../../components/Form/InputText";
 const TodoForm = () => (
     <>
         <Card>
-            <InputText id='title' label='Title' />
+
+            <Card.Title>Form</Card.Title>
+            <Card.Body>
+                <InputText id='title' label='Title' />
+            </Card.Body>
+            {/* <Card.Footer>Footer</Card.Footer> */}
+
         </Card>
     </>
 )
