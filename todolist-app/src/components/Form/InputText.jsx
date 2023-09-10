@@ -13,7 +13,7 @@ const InputText = ({
     };
 
     const baseStyle = {
-        default: 'border-2 rounded-lg py-2 px-3 transition duration-300',
+        default: 'border rounded-lg py-2 px-3 transition duration-300',
         focus: 'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-300',
         color: {
             default: 'placeholder:text-slate-400 bg-slate-50 text-inherit border-slate-500 focus:border-slate-600'
